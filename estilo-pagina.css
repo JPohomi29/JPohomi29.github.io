@@ -1,16 +1,10 @@
-@font-face {
-  font-family: "Aguafina Script";
-  font-weight: 400;
-  font-style:  normal;
-  src: local('Aguafina Script Regular'), local('AguafinaScript-Regular'), url('/fonts/AguafinaScript-Regular.ttf') format('truetype');
-}
 
 
 h1 {
 color: black;
 text-align: center;
-font-family: "Aguafina Script", cursive;
-font-size: 24px;
+font-family: "Garamond", serif;
+font-size: 34px;
 line-height: 1.5;
 
 }
@@ -20,10 +14,33 @@ background-color: #c5e8f0;
 
 }
 
+p{
+color: black;
+text-align: center;
+font-family: "Garamond", serif;
+font-size: 18px;
+line-height: 1.5;
+}
+
 form {
 color: black;
 text-align: center;
 font-family: "Garamond", serif;
 font-size: 18px;
 line-height: 1.5;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+color: black;
+text-align: left;
+font-family: "Garamond", serif;
+font-size: 18px;
+padding: 8px;
+line-height: 1.5;
+}
+
+td {
+padding: 8px;
 }
